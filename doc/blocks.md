@@ -1823,6 +1823,7 @@ format_singular = "{count} open task ({filter_name})"
 format_everything_done = "nothing to do!"
 warning_threshold = 10
 critical_threshold = 20
+on_click = "task list | rofi -dmenu"
 [[block.filters]]
 name = "today"
 filter = "+PENDING +OVERDUE or +DUETODAY"
